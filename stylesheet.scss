@@ -1,0 +1,44 @@
+@import '_variables';
+
+body{
+  background-color: $body-color;
+  margin:0;
+  padding:0;
+}
+header{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:$header-one-size * 2;
+  background-color: $header-color;
+
+  h1{
+    font-size:$header-one-size;
+    font-family: $header-font;
+    color:$header-font-color;
+    text-align:center;
+    padding:0;
+    margin:0;
+  }
+}
+
+.information{
+  color:$paragraph-color;
+  font-family: $paragraph-font;
+  margin-top:$header-one-size * 3;
+
+  .output{
+    background-color: $header-color;
+
+    h3{
+      font-family:$header-font;
+      font-size:$header-one-size - .5em;
+      color:$header-font-color;
+    }
+    p{
+      font-family:$paragraph-font;
+      color:$header-font-color;
+    }
+  }
+}
