@@ -18,7 +18,7 @@ header {
     padding: 0;
     margin: 0; }
 
-.information {
+#information {
   color: white;
   font-family: "roboto condensed";
   margin-top: 4.5em;
@@ -26,14 +26,14 @@ header {
   margin-rigth: 0;
   width: 100%;
   heigth: 100%; }
-  .information form p {
+  #information form p {
     margin-right: 33%;
     margin-left: 33%; }
-  .information form input {
+  #information form input {
     margin-left: 33%;
     margin-right: 33%;
     width: 30%; }
-  .information form button {
+  #information form button {
     margin-left: 38%;
     margin-right: 38%;
     margin-top: 5%;
@@ -42,16 +42,16 @@ header {
     font-family: "open sans condensed";
     font-size: 0.9em;
     width: 20%; }
-  .information .output {
+  #information #output {
     background-color: white;
     width: 100%;
     height: 100%; }
-    .information .output h3 {
+    #information #output h3 {
       font-family: "open sans condensed";
       font-size: 1em;
       color: #000048;
       text-align: center; }
-    .information .output p {
+    #information #output p {
       font-family: "roboto condensed";
       color: #000048;
       text-align: center; }
