@@ -27,18 +27,48 @@ header{
   color:$paragraph-color;
   font-family: $paragraph-font;
   margin-top:$header-one-size * 3;
+  margin-left:0;
+  margin-rigth:0;
+  width:100%;
+  heigth:100%;
+  form{
+    p{
+      margin-right:33%;
+      margin-left:33%;
+    }
+  input{
+    margin-left:33%;
+    margin-right:33%;
+    width:30%;
+  }
+  button{
+    margin-left:38%;
+    margin-right:38%;
+    margin-top:5%;
+    background-color:$header-color;
+    border:none;
+    font-family:$header-font;
+    font-size:$header-one-size - .6em;
+    width: 20%;
 
+  }
+}
   .output{
     background-color: $header-color;
+    width:100%;
+    height:100%;
 
     h3{
       font-family:$header-font;
       font-size:$header-one-size - .5em;
       color:$header-font-color;
+      text-align:center;
     }
     p{
       font-family:$paragraph-font;
       color:$header-font-color;
+      text-align:center;
     }
+
   }
 }
