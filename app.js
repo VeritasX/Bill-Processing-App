@@ -6,10 +6,6 @@ var submitThis = function() {
     amount = document.getElementById('amount').value;
   BillsOutPut.push(bill);
   AmountsToAdd.push(amount);
-  console.log(BillsOutPut);
-  console.log(AmountsToAdd);
-  return BillsOutPut;
-  return AmountsToAdd;
 }
 
 
