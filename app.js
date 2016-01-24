@@ -1,4 +1,16 @@
-'use strict'
+'use strict';
+var BillsOutPut = [],
+  AmountsToAdd = [];
+var submitThis = function() {
+  var bill = document.getElementById('bill').value,
+    amount = document.getElementById('amount').value;
+  BillsOutPut.push(bill);
+  AmountsToAdd.push(amount);
+  console.log(BillsOutPut);
+  console.log(AmountsToAdd);
+  return BillsOutPut;
+  return AmountsToAdd;
+}
 
 
 
