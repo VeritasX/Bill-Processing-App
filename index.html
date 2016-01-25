@@ -14,13 +14,13 @@
       <section id="information">
           <form>
 
-            <p>BILL:</p><input type="text" value="" name="bill" id="bill">
-            <p>AMOUNT:</p><input type="text" value="" name="amount" id="amount">
-            <button id="submit" type="button" onclick="submitThis()">Add to List</button>
+            <p>BILL:</p><input type="text" value="" name="bill" id="bill"  placeholder="Enter the Name of your bill." required>
+            <p>AMOUNT:</p><input type="text" value="" name="amount" id="amount"  placeholder="Enter the amount of you bill." required>
+            <button id="submit" type="button" onclick="submitThis()" value="Submit">Add to List</button>
 
           </form>
           <div id="output">
-          
+
           </div>
       </section>
       <script src="app.js"></script>
