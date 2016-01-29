@@ -26,6 +26,21 @@ header {
   margin-rigth: 0;
   width: 100%;
   heigth: 100%; }
+  #information h2 {
+    font-family: "open sans condensed";
+    font-size: 1.3em;
+    color: white;
+    text-align: center; }
+  #information h3 {
+    font-family: "open sans condensed";
+    font-size: 1em;
+    color: white;
+    text-align: center; }
+  #information h4 {
+    font-family: "open sans condensed";
+    font-size: 0.8em;
+    color: white;
+    text-align: center; }
   #information form p {
     margin-right: 33%;
     margin-left: 33%; }
