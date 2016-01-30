@@ -36,19 +36,23 @@ var submitThis = function() {
 
     clear();
 
-    parseAmount();
-    modifyAmount();
-    addTheCost();
-    BillsOutPut.push(bill);
-    AmountsToAdd.push(AmountChanged);
-    totalAmount = costAmount.toFixed(2);
+    if(isNaN(amount)){
+      outputDiv.innerHTML+="<h3>Please enter only numbers in the amount field.</h3>";
+    }else {
+
+      parseAmount();
+      modifyAmount();
+      addTheCost();
+      BillsOutPut.push(bill);
+      AmountsToAdd.push(AmountChanged);
+      totalAmount = costAmount.toFixed(2);
 
 
       for (let i = 0; i < BillsOutPut.length; i++) {
         outputDiv.innerHTML += '<p> Bill: ' + BillsOutPut[i] + '&#8195;&#8195;&#8195;&#8195; Amount: &#8195;' + AmountsToAdd[i] + '    </p>';
       }
       outputDiv.innerHTML += '<h3> Final Total: $' + totalAmount + ' </h3>';
-
+    }
   }
   if (amount == ''){
     clear();
@@ -57,6 +61,5 @@ var submitThis = function() {
     getYourBills();
 
   }
-
 }
 
