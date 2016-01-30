@@ -31,6 +31,26 @@ header{
   margin-rigth:0;
   width:100%;
   heigth:100%;
+
+  h2{
+    font-family:$header-font;
+    font-size:$header-one-size - .2em;
+    color:$paragraph-color;
+    text-align:center;
+  }
+
+  h3{
+    font-family:$header-font;
+    font-size:$header-one-size - .5em;
+    color:$paragraph-color;
+    text-align:center;
+  }
+  h4{
+    font-family:$header-font;
+    font-size:$header-one-size - .7em;
+    color:$paragraph-color;
+    text-align:center;
+  }
   form{
     p{
       margin-right:33%;
@@ -52,6 +72,7 @@ header{
     width: 20%;
 
   }
+
 }
   #output{
     background-color: $header-color;
@@ -68,6 +89,7 @@ header{
       font-family:$paragraph-font;
       color:$header-font-color;
       text-align:center;
+
     }
 
   }
