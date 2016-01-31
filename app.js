@@ -4,9 +4,10 @@ var AmountsToAdd = [];
 var costAmount = 0;
 var parseCost;
 var AmountChanged;
+var submitThis = document.getElementById('submit');
 
 
-var submitThis = function() {
+submitThis.onclick = function() {
 
   var bill = document.getElementById('bill').value;
   var amount = document.getElementById('amounts').value;
@@ -48,7 +49,7 @@ var submitThis = function() {
       totalAmount = costAmount.toFixed(2);
 
 
-      for (let i = 0; i < BillsOutPut.length; i++) {
+      for (var i = 0; i < BillsOutPut.length; i++) {
         outputDiv.innerHTML += '<p> Bill: ' + BillsOutPut[i] + '&#8195;&#8195;&#8195;&#8195; Amount: &#8195;' + AmountsToAdd[i] + '    </p>';
       }
       outputDiv.innerHTML += '<h3> Final Total: $' + totalAmount + ' </h3>';
